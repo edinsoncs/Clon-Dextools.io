@@ -1,0 +1,57 @@
+.main__Menu{
+    background-color: #191c24;
+    height: 52px;
+}
+
+.main__Menu h1, .main__Menu a{
+    color: white;
+}
+
+.main__Menu a{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.main__Menu .main__Menu--Primary{
+    line-height: 50px;
+}
+
+.main__Menu .main__Menu--Primary ul{
+    margin: 0;
+    padding:0;
+}
+
+.main__Menu .main__Menu--Primary ul li{
+    list-style-type: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.main__Menu .main__Menu--Primary ul li a{
+    padding: 0 1em;
+}
+
+.main__Menu .main__Menu--Primary ul li a svg{
+    color: #8f5fe8;
+    font-size: 20px;
+    margin: 0 5px 0 0;
+}
+
+.main__Menu .main__Menu--Primary ul li a:hover{
+    color:white;
+    text-decoration: none;
+    background: black;
+}
+
+
+.main__Menu h1{
+    font-size: 20px;
+    margin:0;
+}
+
+.main__Menu ul{
+    margin:0;
+    padding:0;
+}

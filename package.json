@@ -1,0 +1,80 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.4.16",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@ethersproject/address": "^5.5.0",
+    "@mui/material": "^5.5.0",
+    "@szhsin/react-menu": "^2.3.4",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "axios": "^0.25.0",
+    "bootstrap": "^5.2.0",
+    "cra-template": "1.1.2",
+    "emoji-picker-react": "^3.5.1",
+    "graphql": "^16.0.1",
+    "ipfs-http-client": "^56.0.1",
+    "ipfs-utils": "^9.0.5",
+    "isomorphic-ws": "^4.0.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0",
+    "react-content-loader": "^6.0.3",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-countdown": "^2.3.2",
+    "react-data-table-component": "^7.4.5",
+    "react-data-table-component-extensions": "^1.5.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-loader-spinner": "^5.1.4",
+    "react-modal": "^3.14.3",
+    "react-moment": "^1.1.1",
+    "react-number-format": "^4.7.3",
+    "react-router-dom": "^6.0.1",
+    "react-scripts": "4.0.3",
+    "react-search-autocomplete": "^5.4.4",
+    "react-select": "^5.2.1",
+    "react-share-social": "^0.1.48",
+    "react-slick": "^0.28.1",
+    "react-tabs": "^5.1.0",
+    "react-tooltip": "^4.2.21",
+    "request-promise": "^4.2.6",
+    "slick-carousel": "^1.8.1",
+    "subscriptions-transport-ws": "^0.11.0",
+    "swr": "^1.0.1",
+    "thegraph-react": "^1.0.0-alpha.1",
+    "urql": "^2.0.5",
+    "web3-react": "^5.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "CI=false && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "web-vitals": "^2.1.2"
+  }
+}
