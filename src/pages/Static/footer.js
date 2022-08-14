@@ -18,6 +18,7 @@ function Footer() {
               <a href="#" target="_blank" data-tip={`Medium`}>
               <HiNewspaper/>
               </a>
+              
             </div>
             <div>
               <a href="#" target="_blank" data-tip={`Coinmarketcap`}>
