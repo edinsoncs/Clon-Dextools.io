@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "engines": { "node": ">=15.0.0" },
+  "engines": { "node": ">=14.4.0" },
   "dependencies": {
     "@apollo/client": "^3.4.16",
     "@emotion/react": "^11.8.1",
