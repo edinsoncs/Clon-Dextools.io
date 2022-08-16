@@ -21,27 +21,113 @@ function ListSponsor() {
                 <article className='list__Sponsor--Article--Hot'>
                     <div className='list__Sponsor--View'>
                         <span>
-                            Join Presale
+                            Live Trading
                         </span>
                     </div>   
                     <div className='list__Sponsor--Header'>
                         <div className='d-flex align-items-center'>
                             <figure className='list__Figure'>
-                                <img src='/images/sky.png' width='37' />
+                                <img src='/images/cawtoken.png' width='37' />
                             </figure>
                             <div className=''>
                                 <div className='list__Name'>
-                                    <span>VSL</span>
+                                    <span>A Hunters Dream</span>
                                 </div>
                                 <div className='list__Info d-flex align-items-center'>
-                                    <span>SKYLABS</span>
-                                    <a href='#'>
+                                    <span>CAW TOKEN</span>
+                                    <a href='https://coinmarketcap.com/es/currencies/caw/' target='_blank'>
                                         <AiTwotoneHome />
                                     </a>
                                     <a href='#'>
                                         <AiFillTwitterCircle />
                                     </a>
-                                    <a href='#'>
+                                    <a href='https://t.me/CAW_official' target='_blank'>
+                                        <BsTelegram />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className='list__Sponsor--Detail'>
+                        <span>
+                        A Hunters Dream is a decentralized financial payment network that rebuilds the traditional payment stack 
+                        </span>
+                    </div>
+                    <div className='list__Sponsor--Link'>
+                        <a href='#'>
+                            More details <BsLink/>
+                        </a>
+                    </div>
+                </article>
+
+                <article className='list__Sponsor--Article--Hot'>
+                    <div className='list__Sponsor--View'>
+                        <span>
+                            Live Trading
+                        </span>
+                    </div>   
+                    <div className='list__Sponsor--Header'>
+                        <div className='d-flex align-items-center'>
+                            <figure className='list__Figure'>
+                                <img src='/images/shiba.png' width='37' />
+                            </figure>
+                            <div className=''>
+                                <div className='list__Name'>
+                                    <span>SHIB</span>
+                                </div>
+                                <div className='list__Info d-flex align-items-center'>
+                                    <span>SHIBA INU</span>
+                                    <a href='https://shibatoken.com/' target='_blank'>
+                                        <AiTwotoneHome />
+                                    </a>
+                                    <a href='https://twitter.com/shibtoken' target='_blank'>
+                                        <AiFillTwitterCircle />
+                                    </a>
+                                    <a href='https://t.me/ShibaInu_Dogecoinkiller' target='_blank'>
+                                        <BsTelegram />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className='list__Sponsor--Detail'>
+                        <span>
+                        SHIB, LEASH, BONE — ShibaSwap — Innovative Reward System — The Shiba Incubator — And more.
+                        </span>
+                    </div>
+                    <div className='list__Sponsor--Link'>
+                        <a href='#'>
+                            More details <BsLink/>
+                        </a>
+                    </div>
+                </article>
+
+                <article className='list__Sponsor--Article--Hot'>
+                    <div className='list__Sponsor--View'>
+                        <span>
+                            Live Trading
+                        </span>
+                    </div>   
+                    <div className='list__Sponsor--Header'>
+                        <div className='d-flex align-items-center'>
+                            <figure className='list__Figure'>
+                                <img src='/images/bone.png' width='37' />
+                            </figure>
+                            <div className=''>
+                                <div className='list__Name'>
+                                    <span>BONE</span>
+                                </div>
+                                <div className='list__Info d-flex align-items-center'>
+                                    <span>BONE SHIBASWAP</span>
+                                    <a href='https://shibaswap.com/' target='_blank'>
+                                        <AiTwotoneHome />
+                                    </a>
+                                    <a href='https://twitter.com/ShibaSwapDEX' target='_blank'>
+                                        <AiFillTwitterCircle />
+                                    </a>
+                                    <a href='https://t.me/ShibaInu_Dogecoinkiller' target='_blank'>
                                         <BsTelegram />
                                     </a>
                                 </div>
@@ -70,107 +156,21 @@ function ListSponsor() {
                     <div className='list__Sponsor--Header'>
                         <div className='d-flex align-items-center'>
                             <figure className='list__Figure'>
-                                <img src='/images/arkm.png' width='37' />
+                                <img src='/images/ohm.png' width='37' />
                             </figure>
                             <div className=''>
                                 <div className='list__Name'>
-                                    <span>VSL</span>
+                                    <span>OHM</span>
                                 </div>
                                 <div className='list__Info d-flex align-items-center'>
-                                    <span>SKYLABS</span>
-                                    <a href='#'>
+                                    <span>OLYMPUS DAO</span>
+                                    <a href='https://www.olympusdao.finance/' target='_target'>
                                         <AiTwotoneHome />
                                     </a>
-                                    <a href='#'>
+                                    <a href='https://twitter.com/OlympusDAO' target='_target'>
                                         <AiFillTwitterCircle />
                                     </a>
-                                    <a href='#'>
-                                        <BsTelegram />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className='list__Sponsor--Detail'>
-                        <span>
-                            Skylabs (VSL) presale will be held in August followed by the release of two flagship launchpads.
-                        </span>
-                    </div>
-                    <div className='list__Sponsor--Link'>
-                        <a href='#'>
-                            More details <BsLink/>
-                        </a>
-                    </div>
-                </article>
-
-                <article className='list__Sponsor--Article--Hot'>
-                    <div className='list__Sponsor--View'>
-                        <span>
-                            Live Trading
-                        </span>
-                    </div>   
-                    <div className='list__Sponsor--Header'>
-                        <div className='d-flex align-items-center'>
-                            <figure className='list__Figure'>
-                                <img src='/images/outer.png' width='37' />
-                            </figure>
-                            <div className=''>
-                                <div className='list__Name'>
-                                    <span>VSL</span>
-                                </div>
-                                <div className='list__Info d-flex align-items-center'>
-                                    <span>SKYLABS</span>
-                                    <a href='#'>
-                                        <AiTwotoneHome />
-                                    </a>
-                                    <a href='#'>
-                                        <AiFillTwitterCircle />
-                                    </a>
-                                    <a href='#'>
-                                        <BsTelegram />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className='list__Sponsor--Detail'>
-                        <span>
-                            Skylabs (VSL) presale will be held in August followed by the release of two flagship launchpads.
-                        </span>
-                    </div>
-                    <div className='list__Sponsor--Link'>
-                        <a href='#'>
-                            More details <BsLink/>
-                        </a>
-                    </div>
-                </article>
-
-                <article className='list__Sponsor--Article--Hot'>
-                    <div className='list__Sponsor--View'>
-                        <span>
-                            Live Trading
-                        </span>
-                    </div>   
-                    <div className='list__Sponsor--Header'>
-                        <div className='d-flex align-items-center'>
-                            <figure className='list__Figure'>
-                                <img src='/images/sky.png' width='37' />
-                            </figure>
-                            <div className=''>
-                                <div className='list__Name'>
-                                    <span>VSL</span>
-                                </div>
-                                <div className='list__Info d-flex align-items-center'>
-                                    <span>SKYLABS</span>
-                                    <a href='#'>
-                                        <AiTwotoneHome />
-                                    </a>
-                                    <a href='#'>
-                                        <AiFillTwitterCircle />
-                                    </a>
-                                    <a href='#'>
+                                    <a href='https://t.me/OlympusTG' target='_target'>
                                         <BsTelegram />
                                     </a>
                                 </div>

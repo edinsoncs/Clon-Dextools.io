@@ -1637,7 +1637,8 @@ option:not(:checked) {
 
 
 a.item-btn-action:hover{
-  background: #1b1c22;
+  background: #283f4e;
+  color: white;
 }
 
 
@@ -1716,6 +1717,57 @@ a.item-btn-action:hover{
 
   body{
     font-size: 0.78rem;
+  }
+
+  .list__Sponsor--Article--Hot{
+    width: 100%!important;
+  }
+  .list__Sponsor--Container .container-sponsor{
+    flex-wrap: wrap;
+  }
+
+  .list__Sponsor--Article{
+    display: none;
+  }
+
+  .list__Sponsor--Article--Hot{
+    height: 140px;
+  }
+
+  .hot-mobile .gas{
+    font-size: 12px;
+  }
+
+  .hot-ads-hot-1{
+    display: none;
+  }
+
+  .hot-ads-hot{
+    display: none;
+  }
+
+  .trending-line .fixed-content{
+    display: none;
+  }
+
+  .trending-line{
+    border-radius: 0;
+  }
+
+  header .col1{
+    display: flex!important;
+  }
+
+  .ads-gifts{
+    display: none;
+  }
+
+  .jaDoXU{
+    width: 100%;
+  }
+
+  .list__Sponsor--Article, .list__Sponsor--Article--Hot{
+    margin: 0 0 10px 0;
   }
   header .col1{
     display: block;
@@ -2006,15 +2058,15 @@ a.item-btn-action:hover{
     background: white;
     color: black;
     z-index: 99;
-    padding: 0.5em 0.65em;
+    padding: 0;
     border-radius: 50%;
-    width: 22px;
-    height: 25px;
+    width: 29px;
+    height: 30px;
     cursor:pointer;
   }
 
   .menu-Mobile svg{
-    font-size: 2em;
+    font-size: 1.25em;
   }
 
   footer{
