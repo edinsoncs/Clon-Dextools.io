@@ -251,7 +251,7 @@ function TemplateLoading() {
                         <div className="col2">
                             <div className='chart-loader-template'>
                                 <LoaderChartPair/>
-                                <h2>Metadex</h2>
+                                <h2>RYOSHI</h2>
                             </div>
                         </div>
                     </div>
