@@ -1,4 +1,4 @@
-var CACHE_NAME = 'meta-v1';
+var CACHE_NAME = 'ryoshi-v1';
 var filesToCache = [
   //Images
   //'/image/a1.jpg'
