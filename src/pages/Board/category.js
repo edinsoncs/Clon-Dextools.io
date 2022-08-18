@@ -14,7 +14,7 @@ function Category(){
                 #SHIB
             </a>
             <a className='category__List'  href='/board/hashtag/mdex'>
-                #MDEX
+                #RYOSHI
             </a>
             <a className='category__List'  href='/board/hashtag/nft'>
                 #NFT
