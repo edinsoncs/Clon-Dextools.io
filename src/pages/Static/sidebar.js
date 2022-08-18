@@ -61,7 +61,7 @@ function Sidebar() {
                 </li>
 
                 <li className={`item ${pairClass}`}>
-                  <a href="/ether/uniswap/pair-explorer/0xd4dcc708f46260f008320383fb1a7379f421c46b">
+                  <a href="/ether/sushi/pair-explorer/0x69b81152c5a8d35a67b32a4d3772795d96cae4da">
                       <HiOutlineSearchCircle />
                       <span>Pair Explorer</span>
                   </a>

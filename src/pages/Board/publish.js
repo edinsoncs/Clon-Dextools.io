@@ -15,6 +15,11 @@ const client = create('https://ipfs.infura.io:5001/api/v0');
 var status_emoji = 0;
 
 
+const projectId = '2DUnMY6rngztJIT2mONzDMq1Bjb'
+const projectSecret = 'abe158736eec299e0ac04dbdeaf44853'
+const projectIdAndSecret = `${projectId}:${projectSecret}`
+
+
 var datas = [];
 function Publish(){
 
@@ -49,6 +54,8 @@ function Publish(){
             
             var z = document.getElementById('timeline-post');
             var l = document.getElementById('loading-indicator-contain');
+
+            console.log('element is:', z);
             
             z.insertAdjacentHTML('afterbegin', `
             <article class='post-item'>
@@ -119,8 +126,22 @@ function Publish(){
     async function onChange(e) {
         const file = e.target.files[0]
         try {
+          
+            const client = create({
+                host: 'ipfs.infura.io',
+                port: 5001,
+                protocol: 'https',
+                headers: {
+                  authorization: `Basic ${Buffer.from(projectIdAndSecret).toString(
+                    'base64'
+                  )}`,
+                },
+              })
+            
+
           const added = await client.add(file)
           const url = `https://ipfs.infura.io/ipfs/${added.path}`
+          console.log('imagen subida',url);
           updateFileUrl(url)
         } catch (error) {
           console.log('Error uploading file: ', error)
