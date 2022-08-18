@@ -75,13 +75,13 @@ export default class Network extends Component {
                                     path.split('/')[1] == 'ether') {
                                     return(<>
                                         
-                                        <MenuItem className='network__Menu--Availables' href="/bsc">
+                                        {/*<MenuItem className='network__Menu--Availables' href="/bsc">
                                             <img src="/images/binance.png" width={20}/> BNB CHAIN
                                         </MenuItem>
                                         
                                         <MenuItem className='network__Menu--Availables' href="/polygon">
                                             <img src="/images/polygon.png" width={20}/>POLYGON
-                                        </MenuItem>
+                                    </MenuItem> */}
 
                                     </>)
                                 }  
@@ -90,13 +90,13 @@ export default class Network extends Component {
                                         path.split('/')[1] == 'bsc'){
                                     return(<>
                                         
-                                        <MenuItem className='network__Menu--Availables' href="/">
+                                        {/*<MenuItem className='network__Menu--Availables' href="/">
                                             <img src="/images/ethereum.svg" width={20}/> ETHEREUM
                                         </MenuItem>
                                         
                                         <MenuItem className='network__Menu--Availables' href="/polygon">
                                             <img src="/images/polygon.png" width={20}/>POLYGON
-                                        </MenuItem>
+                                        </MenuItem>*/}
 
                                     </>)
                                 }
@@ -105,13 +105,13 @@ export default class Network extends Component {
                                         path.split('/')[1] == 'polygon'){
                                     return(<>
                                         
-                                        <MenuItem className='network__Menu--Availables' href="/">
+                                        {/*<MenuItem className='network__Menu--Availables' href="/">
                                             <img src="/images/ethereum.svg" width={20}/> ETHEREUM
                                         </MenuItem>
                                         
                                         <MenuItem className='network__Menu--Availables' href="/bsc">
                                             <img src="/images/binance.png" width={20}/> BNB CHAIN
-                                        </MenuItem>
+                                        </MenuItem>*/}
 
                                     </>)
                                 }
