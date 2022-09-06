@@ -3021,3 +3021,19 @@ html .group-wWM3zP_M {
 .list-transactions-tabs{
   width: 76%;
 }
+
+.listFeed{
+  margin: 1em 0 0 0;
+  padding:0;
+}
+
+.listFeed li{
+  display: inline-block;
+}
+
+.listFeed a{
+  font-size: 14px;
+  margin: 5px 0;
+  display: block;
+  color: #818ea3;
+}
