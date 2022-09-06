@@ -56,7 +56,7 @@ export default class Header extends Component {
 
 
        <section className='ads-gifts'>
-          <iframe src='https://request-global.czilladx.com/serve/view.php?w=HEADER&h=&z=99161fcd5bf67a3a682&c=8662f266ae2efb4530&n=5bd54e75992e6b0a6b9dd351156a1096d90cd17f9e9b6b9b41f2e7374c344dd2&integrity=eyJrZXkiOiJiMTFjYjY5OTQ3ZWZlNTVkMDUwNmZkMjIzNzNmMGFiODJhYTQ5Y2JmYzMxM2RjNDJhYjNhODI0ZmQxNDRhZmFhIiwidGltZXN0YW1wIjoxNjYwMjkyMzk2LjgyNDk4MywiaWRlbnRpZmllciI6IjUyZDM4MDRmNzNlNDRiMzQyYzI5YzI3NDUwMjYyMWI3ZTEyYzlkYzc3YzI5ZjVmODI2MzM1ZWRjMzY4MGY4YmYifQ' width='100%' height='90'></iframe>
+          <iframe src='https://ads.ryoshi.pro/' width='100%' height='90'></iframe>
        </section>
 
        <header>

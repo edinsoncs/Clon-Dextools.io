@@ -48,7 +48,7 @@ const customStyles = {
         when: row => row.completed,
         style: {
             minHeight: '40px', // override the row
-            backgroundColor: '#121317',
+            backgroundColor: '#000000',
             color: 'white',
             '&:hover': {
               backgroundColor: '#000000de!important',
@@ -62,7 +62,7 @@ const customStyles = {
         style: {
             paddingLeft: '8px', // override the cell padding for head cells
             paddingRight: '8px',
-            backgroundColor: '#121317',
+            backgroundColor: '#000000',
             color:'white',
             fontWeight: '800'
         },
@@ -75,7 +75,7 @@ const customStyles = {
     },
     pagination:{
       style: {
-          backgroundColor: '#121317',
+          backgroundColor: '#000000',
           color: 'white'
       },
     }

@@ -357,6 +357,32 @@ aside.emoji-picker-react{
     margin: 1em auto;
 }
 
+.list-transactions-tabs .nav-tabs{
+    border: none;
+    padding: 0!important;
+    margin: 0!important;
+    background:#23323c;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.list-transactions-tabs .nav-tabs .nav-item{
+    padding: 0.5em;
+    font-size: 14px;
+}
+
+.list-transactions-tabs .nav-tabs .nav-item .nav-link.active{
+    background: #142028;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.list-transactions-tabs .nav-tabs .nav-item .nav-link{
+    color: #818ea3;
+}
+
 @media screen and (min-width:0) and (max-width: 760px){
     .board-container{
         width: 90%;

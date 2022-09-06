@@ -1584,7 +1584,7 @@ footer {
 .typeSellect {
   position: relative;
   display: flex;
-  width: 9.5em;
+  width: 10.5em;
   height: 2em;
   border-radius: 0.25em;
   overflow: hidden;
@@ -1717,6 +1717,10 @@ a.item-btn-action:hover{
 
   body{
     font-size: 0.78rem;
+  }
+
+  .list-transactions-tabs{
+    width: 100%!important;
   }
 
   .list__Sponsor--Article--Hot{
@@ -2843,14 +2847,16 @@ html .group-wWM3zP_M {
 }
 
 .pair-list-actions .transaction-list{
-  width: 76%;
+  width: 100%;
+  padding:0;
+  margin:0;
 }
 
 .list-news-pair{
   width:21%;
   background: #142028;
   border-radius: 6px;
-  margin-top: 25px;
+  margin-top: 0;
   padding: 15px 15px;
   max-height: 710px;
   overflow-y: scroll;
@@ -3000,4 +3006,14 @@ html .group-wWM3zP_M {
 .list__Sponsor--Article--Hot .list__Info a svg{
   color: white;
   margin: 0 0.25em;
+}
+
+.list-transactions-tabs .nav-tabs .nav-item .nav-link:hover{
+  border: 1px solid transparent;
+  background:#1c2932;
+
+}
+
+.list-transactions-tabs{
+  width: 76%;
 }
