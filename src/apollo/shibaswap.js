@@ -18,7 +18,7 @@ const isAddress = (value: any) => {
 
 const tokensQuery = `
   query {
-    pairs(where: {timestamp_gte: ${backTime}, reserveUSD_gt: "100"}, first: 10,  orderBy: timestamp, orderDirection: desc) {
+    pairs(where: {timestamp_gte: ${backTime}, reserveUSD_gt: "100"}, first: 15,  orderBy: timestamp, orderDirection: desc) {
       id
       token0 {
         id

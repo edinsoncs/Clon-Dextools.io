@@ -6,7 +6,7 @@ const APIURL = 'https://api.thegraph.com/subgraphs/name/sushiswap/exchange'
 
 
 
-var minutesConfig = new Date( Date.now() - 10000000 * 60 );
+var minutesConfig = new Date( Date.now() - 100000000 * 60 );
 const backTime = parseInt(minutesConfig.getTime() / 1000).toFixed(0);
 const isAddress = (value: any) => {
     try {
@@ -18,7 +18,7 @@ const isAddress = (value: any) => {
 
 const tokensQuery = `
   query {
-    pairs(where: {timestamp_gte: ${backTime}, reserveUSD_gt: "100"}, first: 12,  orderBy: timestamp, orderDirection: desc) {
+    pairs(where: {timestamp_gte: ${backTime}, reserveUSD_gt: "100"}, first: 15,  orderBy: timestamp, orderDirection: desc) {
       id
       token0 {
         id

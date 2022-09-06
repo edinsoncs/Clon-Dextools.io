@@ -48,6 +48,7 @@
     "swr": "^1.0.1",
     "thegraph-react": "^1.0.0-alpha.1",
     "urql": "^2.0.5",
+    "video-react": "^0.15.0",
     "web3-react": "^5.0.5"
   },
   "scripts": {

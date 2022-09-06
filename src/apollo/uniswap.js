@@ -11,7 +11,7 @@ const backTime = parseInt(minutesConfig.getTime() / 1000).toFixed(0);
 
 const tokensQuery = `
   query {
-    pairs(where: {createdAtTimestamp_gt: ${backTime}, reserveUSD_gt: "100"}, first: 12,  orderBy: createdAtTimestamp, orderDirection: desc) {
+    pairs(where: {createdAtTimestamp_gt: ${backTime}, reserveUSD_gt: "100"}, first: 15,  orderBy: createdAtTimestamp, orderDirection: desc) {
       id
       token0 {
         id
