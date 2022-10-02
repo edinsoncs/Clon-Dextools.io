@@ -12,6 +12,8 @@ import {
   PlaybackRateMenuButton,
   VolumeMenuButton
 } from 'video-react';
+
+
 export default class Feed extends Component {
   render() {
     const settings = {
@@ -28,17 +30,7 @@ export default class Feed extends Component {
         <div>
           <article className='feedArticle'>
             
-            <Player poster="/images/ryoshitv.png">
-                        <source src="https://firebasestorage.googleapis.com/v0/b/quickly-fbda0.appspot.com/o/ryo.mp4?alt=media&token=b88d3913-293c-46b0-906c-82deee905a42" />
-                        <ControlBar>
-                            <ReplayControl seconds={10} order={1.1} />
-                            <ForwardControl seconds={30} order={1.2} />
-                            <CurrentTimeDisplay order={4.1} />
-                            <TimeDivider order={4.2} />
-                            <PlaybackRateMenuButton rates={[5, 2, 1, 0.5, 0.1]} order={7.1} />
-                            <VolumeMenuButton true />
-                        </ControlBar>
-            </Player>
+            
             <ul className='listFeed'>
               <li>
                 <a href='https://www.iproup.com/economia-digital/33721-asi-funciona-ryoshi-la-nueva-plataforma-para-inversores-cripto' target='_blank'>

@@ -13,11 +13,11 @@ function Information() {
                         <div className="col-title"><span className="icon"></span> RYOSHI <strong>PRO</strong></div>
                         <div className="col-content">
                             <div class="line-1">
-                              <a class="item-btn-action active" href="/ether/uniswap/pair-explorer/0xaca404571ae8bc9067fcd52cc989869b28a7540c">
+                              <a class="item-btn-action active" href="#">
                                 <span class="icon">
                                     <BiFileFind />
                                 </span>
-                                <span class="content">Pairs Explorer</span>
+                                <span class="content">Pair Explorer</span>
                               </a>
                               <a class="item-btn-action active" href="/pools">
                                 <span class="icon">
