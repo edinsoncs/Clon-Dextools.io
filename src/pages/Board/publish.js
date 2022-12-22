@@ -10,7 +10,7 @@ import Alert from '@mui/material/Alert';
 
 
 const axios = require('axios');
-const api_service_save = 'https://api.metadex.tools/board/save/post';
+const api_service_save = 'https://api.ryoshi.pro/board/save/post';
 const client = create('https://ipfs.infura.io:5001/api/v0');
 var status_emoji = 0;
 

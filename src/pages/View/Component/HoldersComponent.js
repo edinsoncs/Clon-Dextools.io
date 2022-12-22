@@ -21,7 +21,7 @@ export default class HoldersComponent extends Component {
 
   post(token) {
 
-    fetch('https://api.metadex.tools/etherscan/token/'+token)
+    fetch('https://api.ryoshi.pro/etherscan/token/'+token)
     .then(response => response.json())
     .then(data => this.setState({ tokens: data }));
 

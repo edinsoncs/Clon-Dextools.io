@@ -304,7 +304,7 @@ const candles = {
   FindSwapPancake: function (id) {
 
     const [rows, setRows] = React.useState([]);
-    let api_get_hastag = 'https://api.metadex.tools/trades/bsc/' + id + '/transactions';
+    let api_get_hastag = 'https://api.ryoshi.pro/trades/bsc/' + id + '/transactions';
 
     React.useEffect(async () => {
 

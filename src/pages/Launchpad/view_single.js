@@ -5,8 +5,8 @@ import Web3 from 'web3'
 import Countdown, { zeroPad, calcTimeDelta, formatTimeDelta } from 'react-countdown';
 
 const axios = require('axios');
-const api_service_save = 'https://api.metadex.tools/launchpad/transaction/create';
-const api_service_get = 'https://api.metadex.tools/launchpad/transaction/';
+const api_service_save = 'https://api.ryoshi.pro/launchpad/transaction/create';
+const api_service_get = 'https://api.ryoshi.pro/launchpad/transaction/';
 
 
 function PadsView() {

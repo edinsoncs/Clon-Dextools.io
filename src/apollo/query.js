@@ -326,7 +326,7 @@ const query = {
   FindApiPancakeswap: function (id) {
 
     const [rows, setRows] = React.useState([]);
-    let api_get_hastag = 'https://api.metadex.tools/information/bsc/' + id + '/pool';
+    let api_get_hastag = 'https://api.ryoshi.pro/information/bsc/' + id + '/pool';
 
     React.useEffect(async () => {
 

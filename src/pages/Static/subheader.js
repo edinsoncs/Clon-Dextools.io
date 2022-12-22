@@ -97,7 +97,7 @@ function Subheader() {
 
 
   useEffect(() => {
-    fetch('https://api.metadex.tools/hotlist/' + network_hot)
+    fetch('https://api.ryoshi.pro/hotlist/' + network_hot)
       .then(response => response.json())
       .then(data => (data.status) ? setHot(data.data) : setHot(null));
   }, []);

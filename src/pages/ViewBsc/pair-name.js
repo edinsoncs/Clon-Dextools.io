@@ -66,7 +66,7 @@ const style = {
 
 function hot(pair, defi, name, network) {
 
-  fetch("https://api.metadex.tools/hot", {
+  fetch("https://api.ryoshi.pro/hot", {
     method: "post",
     headers: {
       'Accept': 'application/json',

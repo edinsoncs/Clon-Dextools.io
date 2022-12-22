@@ -15,7 +15,7 @@ function News() {
 
   useEffect(() => {
 
-    fetch('https://api.metadex.tools/news')
+    fetch('https://api.ryoshi.pro/news')
       .then(response => response.json())
       .then(data => setNews(data))
 

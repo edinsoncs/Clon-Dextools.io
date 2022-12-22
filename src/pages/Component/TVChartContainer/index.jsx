@@ -20,7 +20,7 @@ export class TVChartContainer extends React.PureComponent {
     interval: "720",
     timeframe: "720",
     containerId: "tv_chart_container",
-    datafeedUrl: "https://api.metadex.tools/uniswap/candles",
+    datafeedUrl: "https://api.ryoshi.pro/uniswap/candles",
     libraryPath: "/charting_library/",
     //chartsStorageUrl: 'https://saveload.tradingview.com',
     chartsStorageApiVersion: "1.1",

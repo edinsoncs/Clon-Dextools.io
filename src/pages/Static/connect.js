@@ -61,7 +61,7 @@ function Connect() {
                           <MenuItem href="/user/settings">Settings</MenuItem>*/}
                           <MenuDivider />
                           {/* <MenuItem>About</MenuItem> */}
-                          <MenuItem href='https://docs.metadex.tools' target='_blank'>Docs</MenuItem>
+                          <MenuItem href='https://docs.ryoshi.pro' target='_blank'>Docs</MenuItem>
                       </Menu>
 
 

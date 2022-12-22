@@ -7,7 +7,7 @@ import { GoClippy, GoDatabase, GoRuby, GoDashboard } from "react-icons/go";
 
 function Market() {
 
-  const { data, error }: any = useSWR('https://api.metadex.tools/coinmarketcap/global', url =>
+  const { data, error }: any = useSWR('https://api.ryoshi.pro/coinmarketcap/global', url =>
         fetch(url).then(r => r.json())
   )
 

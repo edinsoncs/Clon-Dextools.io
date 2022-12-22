@@ -24,7 +24,7 @@ export default class InformationComponent extends Component {
 
   post(token) {
 
-    fetch('https://api.metadex.tools/coinmarketcap/tokens/'+token)
+    fetch('https://api.ryoshi.pro/coinmarketcap/tokens/'+token)
     .then(response => response.json())
     .then(data => this.setState({ tokens: data }));
 
