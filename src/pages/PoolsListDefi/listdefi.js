@@ -8,7 +8,7 @@ import token from '../../modules/getToken';
 import { getAddress } from '@ethersproject/address'
 import DataTableExtensions from 'react-data-table-component-extensions';
 
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+//import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 import { Oval } from  'react-loader-spinner'
 

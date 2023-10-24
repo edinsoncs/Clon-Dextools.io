@@ -2,7 +2,8 @@ import useSWR from 'swr'
 import NumberFormat from 'react-number-format';
 import ReactTooltip from 'react-tooltip';
 
-import { GoClippy, GoDatabase, GoRuby, GoDashboard } from "react-icons/go";
+import { GoCopy, GoDatabase, GoRuby, GoHome } from "react-icons/go";
+import { IconName } from "react-icons/go";
 
 
 function Market() {
@@ -22,7 +23,7 @@ function Market() {
 
         <article className='market__List'>
             <div className='market__List--Icon'>
-              <GoClippy />
+              <GoCopy />
             </div>
             <div className='market__List--Show'>
                 {obj.active_market_pairs}
@@ -58,7 +59,7 @@ function Market() {
 
         <article className='market__List'>
             <div className='market__List--Icon'>
-              <GoDashboard />
+              <GoHome />
             </div>
             <div className='market__List--Show'>
             <NumberFormat value={obj.stablecoin_volume_24h} displayType={'text'} thousandSeparator={true} prefix={'$'} decimalScale={0} />

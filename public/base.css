@@ -6,6 +6,10 @@
   --black: #23323c;
 }
 
+body > iframe[style*='2147483647']{
+  display: none;
+}
+
 
 figure{
   margin:0!important;
