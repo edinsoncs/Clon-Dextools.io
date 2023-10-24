@@ -15,7 +15,7 @@
     "bootstrap": "^5.2.0",
     "cra-template": "1.1.2",
     "emoji-picker-react": "^3.5.1",
-    "graphql": "^16.0.1",
+    "graphql": "^16.8.1",
     "ipfs-http-client": "^56.0.1",
     "ipfs-utils": "^9.0.5",
     "isomorphic-ws": "^4.0.1",
