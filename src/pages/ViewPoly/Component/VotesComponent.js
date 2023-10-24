@@ -33,7 +33,7 @@ export default class VotesComponent extends Component {
     //console.log(this.state.votes);
 
     if(this.account){
-      fetch("https://api.ryoshi.pro/votes/", {
+      fetch("https://api.dexi.tools/votes/", {
           method: "post",
           headers: {
             'Accept': 'application/json',
@@ -74,7 +74,7 @@ export default class VotesComponent extends Component {
   }
 
   readVotes(pair){
-    fetch('https://api.ryoshi.pro/votes/'+pair)
+    fetch('https://api.dexi.tools/votes/'+pair)
     .then(response => response.json())
     .then(data => this.setState({ votes: data }));
 

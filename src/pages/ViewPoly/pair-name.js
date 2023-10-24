@@ -67,7 +67,7 @@ const style = {
 
 function hot(pair, defi, name, network){
 
-  fetch("https://api.ryoshi.pro/hot", {
+  fetch("https://api.dexi.tools/hot", {
       method: "post",
       headers: {
         'Accept': 'application/json',

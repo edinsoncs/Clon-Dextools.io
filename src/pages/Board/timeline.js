@@ -10,8 +10,8 @@ import { Link } from 'react-router-dom';
 
 
 const axios = require('axios');
-const api_service_save = 'https://api.ryoshi.pro/board/get/post';
-const api_service_comment_save = 'https://api.ryoshi.pro/board/new/comment/save';
+const api_service_save = 'https://api.dexi.tools/board/get/post';
+const api_service_comment_save = 'https://api.dexi.tools/board/new/comment/save';
 
 
 function Timeline(){
@@ -24,7 +24,7 @@ function Timeline(){
 
     React.useEffect(() => {
         if(hastag){
-            let api_get_hastag = 'https://api.ryoshi.pro/board/get/'+ hastag +'/post';
+            let api_get_hastag = 'https://api.dexi.tools/board/get/'+ hastag +'/post';
             axios.get(api_get_hastag).then((response) => {
                 setPost(response.data.data);
             });
@@ -32,12 +32,12 @@ function Timeline(){
         } else {
 
             if(id){
-                const api_service_get_id = 'https://api.ryoshi.pro/board/id/'+id+'/post';
+                const api_service_get_id = 'https://api.dexi.tools/board/id/'+id+'/post';
                 axios.get(api_service_get_id).then((response) => {
                     setPost(response.data.data);
                 });
 
-                const api_service_get_comments_id = 'https://api.ryoshi.pro/board/comments/'+id+'/post';
+                const api_service_get_comments_id = 'https://api.dexi.tools/board/comments/'+id+'/post';
                 axios.get(api_service_get_comments_id).then((response) => {
                     setComments(response.data.data);
                 });

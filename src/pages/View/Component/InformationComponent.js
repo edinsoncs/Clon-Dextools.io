@@ -27,7 +27,7 @@ export default class InformationComponent extends Component {
 
   cmc(token) {
 
-    fetch('https://api.ryoshi.pro/coinmarketcap/tokens/'+token)
+    fetch('https://api.dexi.tools/coinmarketcap/tokens/'+token)
     .then(response => response.json())
     .then(data => this.setState({ cmc: data }));
 
@@ -35,7 +35,7 @@ export default class InformationComponent extends Component {
 
   post(token) {
 
-    fetch('https://api.ryoshi.pro/etherscan/token/'+token)
+    fetch('https://api.dexi.tools/etherscan/token/'+token)
     .then(response => response.json())
     .then(data => this.setState({ tokens: data }));
 

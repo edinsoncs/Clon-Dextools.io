@@ -8,7 +8,7 @@ import { IconName } from "react-icons/go";
 
 function Market() {
 
-  const { data, error }: any = useSWR('https://api.ryoshi.pro/coinmarketcap/global', url =>
+  const { data, error }: any = useSWR('https://api.dexi.tools/coinmarketcap/global', url =>
         fetch(url).then(r => r.json())
   )
 

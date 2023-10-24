@@ -34,7 +34,7 @@ export default {
 
 		let pathName = window.location.pathname;
 		let query = pathName.split('/');
-		let query_res = `https://api.ryoshi.pro/candles/${query[2]}/${token[0]}/${token[1]}?frame=${resolution}`
+		let query_res = `https://api.dexi.tools/candles/${query[2]}/${token[0]}/${token[1]}?frame=${resolution}`
 		//alert(resolution);
 		//console.log(query_res);
 

@@ -15,7 +15,7 @@ function News() {
 
   useEffect(() => {
 
-    fetch('https://api.ryoshi.pro/news')
+    fetch('https://api.dexi.tools/news')
       .then(response => response.json())
       .then(data => setNews(data))
 

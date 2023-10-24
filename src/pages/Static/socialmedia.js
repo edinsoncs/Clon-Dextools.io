@@ -25,7 +25,7 @@ function SocialMedia() {
             let hashtag = document.getElementsByClassName('symbol-pair');
 
             if (hashtag.length > 0) {
-                let api_get_hastag = 'https://api.ryoshi.pro/board/get/' + hashtag[0].innerHTML + '/post';
+                let api_get_hastag = 'https://api.dexi.tools/board/get/' + hashtag[0].innerHTML + '/post';
                 axios.get(api_get_hastag).then((response) => {
                     setPost(response.data.data);
                 });

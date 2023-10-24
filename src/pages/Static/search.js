@@ -52,7 +52,7 @@ export default class SearchWidget extends Component {
   }
 
   getSearch(string) {
-    fetch('https://api.ryoshi.pro/search/'+this.defiSelect+'/'+string)
+    fetch('https://api.dexi.tools/search/'+this.defiSelect+'/'+string)
     .then(response => response.json())
     .then(data => this.setState({ searchList: data.data }));
 
